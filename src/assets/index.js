@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import illustration from "./sample.jpg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -15,7 +15,7 @@ import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
+import website from "./website.png";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -33,7 +33,7 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
+  illustration,
   send,
   shield,
   star,
@@ -42,7 +42,7 @@ export {
   google,
   apple,
   arrowUp,
-  discount,
+  website,
   facebook,
   instagram,
   linkedin,
