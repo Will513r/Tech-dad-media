@@ -3,7 +3,6 @@ import style from "./style";
 import {
   Billing,
   Business,
-  CardDeal,
   Clients,
   CTA,
   Footer,
@@ -22,8 +21,8 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${style.flexStart}`}>
-        <div className={`${style.boxWidth}`}>
+      <div className={`bg-primary ${style.flexStart} `}>
+        <div className={`${style.boxWidth} `}>
           <Hero />
         </div>
       </div>
