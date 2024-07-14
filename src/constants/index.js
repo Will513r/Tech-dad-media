@@ -21,8 +21,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About",
   },
   {
     id: "product",
@@ -38,23 +38,21 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Web Development",
+    content: "Custom-built websites tailored to your business goals.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Content Creation",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Engaging content that captivates your audience and drives results.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "SEO",
+    content: "Boost your website's visibility and organic traffic.",
   },
 ];
 
