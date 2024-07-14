@@ -3,7 +3,6 @@ import style from "./style";
 import {
   Billing,
   Business,
-  Clients,
   CTA,
   Footer,
   Navbar,
@@ -33,7 +32,6 @@ const App = () => {
           <Business />
           <Billing />
           <Testimonials />
-          <Clients />
           <CTA />
           <Footer />
         </div>
