@@ -10,7 +10,7 @@ const Hero = () => {
       <div
         className={`flex-1 ${style.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-8">
           <img
             src={website}
             alt="discount"
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold text-center ss:text-[72px] text-[52px] ss:text-left text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold text-center ss:text-[72px] text-[52px] ss:text-left text-white ss:leading-[100.8px] leading-[75px] sm:leading-[72px]">
             Find The Perfect
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Freelance Services</span>
@@ -47,11 +47,23 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${style.flexCenter} md:my-0 my-10 relative`}>
-        <img
+        {/* <img
           src={illustration}
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5] scale-125"
-        />
+        /> */}
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/IHf3JWkxUXA?si=cgprK_CAqKl-UctQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          className="z-[10] scale-110"
+        ></iframe>
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
