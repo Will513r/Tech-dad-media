@@ -20,7 +20,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${style.flexStart} my-[-65px]`}>
+      <div className={`bg-primary ${style.flexStart} my-[-5px] ss:my-[-65px]`}>
         <div className={`${style.boxWidth} `}>
           <Hero />
         </div>

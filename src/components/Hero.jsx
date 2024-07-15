@@ -53,7 +53,7 @@ const Hero = () => {
           className="w-[100%] h-[100%] relative z-[5] scale-125"
         /> */}
 
-        <iframe
+        {/* <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/IHf3JWkxUXA?si=cgprK_CAqKl-UctQ"
@@ -62,8 +62,20 @@ const Hero = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-          className="z-[10] scale-110"
-        ></iframe>
+          className="z-[10] scale-110 rounded-2xl"
+        ></iframe> */}
+
+        <div class="relative w-full pb-[56.25%] mx-5 rounded-lg overflow-hidden">
+          <iframe
+            src="https://www.youtube.com/embed/IHf3JWkxUXA?si=cgprK_CAqKl-UctQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full border-0"
+          ></iframe>
+        </div>
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
