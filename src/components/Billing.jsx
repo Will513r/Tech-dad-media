@@ -2,7 +2,10 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="transaction" className={layout.sectionReverse}>
+  <section
+    id="transaction"
+    className={`${layout.sectionReverse} ml:0 sm:ml-16`}
+  >
     <div className={layout.sectionImgReverse}>
       <img
         src={bill}
@@ -21,9 +24,10 @@ const Billing = () => (
         Payment Transactions <br className="sm:block hidden" />
         at Competitive Rates
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Easily control your billing & invoicing. Collaborate seamlessly with us
-        and experience smooth payment transactions at a competitive rate.
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+        Experience smooth payment transactions at competitive rates. Partner
+        with us for projects at beginner-friendly prices, ensuring top-quality
+        work that meets market standards.
       </p>
 
       {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
