@@ -48,9 +48,9 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "Content Creation",
+    title: "Marketing",
     content:
-      "Engaging content that captivates your audience and drives results.",
+      "Boost your business with our comprehensive marketing solutions, including video creation and targeted advertising.",
   },
   {
     id: "feature-3",

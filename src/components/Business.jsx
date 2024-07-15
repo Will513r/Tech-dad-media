@@ -25,12 +25,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-  <section id="about" className={layout.section}>
+  <section id="about" className={`${layout.section} ml-0 sm:ml-16`}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Elevate Your <br className="sm:block hidden" /> Business Online.
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <h2 className={styles.heading2}>Elevate Your Business Online.</h2>
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
         We craft stunning, user-friendly websites that perfectly reflect your
         brand. Our expert SEO strategies ensure your business stands out online,
         driving more traffic and leads. Let us help you build a strong online
