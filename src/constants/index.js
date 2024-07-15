@@ -64,15 +64,15 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Since Tech Dad Media built our new website, we've seen a 200% increase in online contact forms. William and his team delivered a site that is attractive, organized, and effective. Thanks to Tech Dad Media for your hard work and support!",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "CTO",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Tech Dad Media helped us significantly enhance our website's functionality while reducing costs. It's now more user-friendly, feature-rich, and easy to maintain. We're thrilled with the results! Thanks, Tech Dad Media!",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -80,9 +80,9 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Tech Dad Media delivered exactly what we needed in a new website! It's fun, exciting, and user-friendly. This redesign was the easiest and least painful experience we've had. We felt listened to and respected throughout. We're thrilled with our new website!",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "CEO",
     img: people03,
   },
 ];
