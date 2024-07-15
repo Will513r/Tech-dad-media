@@ -65,7 +65,7 @@ const Hero = () => {
           className="z-[10] scale-110 rounded-2xl"
         ></iframe> */}
 
-        <div class="relative w-full pb-[56.25%] mx-5 rounded-lg overflow-hidden">
+        <div class="relative w-[85%]  pb-[56.25%] mx-5 rounded-lg overflow-hidden z-[10]">
           <iframe
             src="https://www.youtube.com/embed/IHf3JWkxUXA?si=cgprK_CAqKl-UctQ"
             title="YouTube video player"
