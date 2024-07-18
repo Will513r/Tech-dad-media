@@ -21,7 +21,9 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${style.flexStart} my-[-5px] ss:my-[-65px]`}>
+      <div
+        className={`bg-primary ${style.flexStart} my-[-5px] ss:my-[-65px] ml-[0px] ss:ml-[75px] lg:ml-[20px]`}
+      >
         <div className={`${style.boxWidth} `}>
           <Hero />
         </div>
