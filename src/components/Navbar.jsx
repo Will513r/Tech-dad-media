@@ -9,11 +9,14 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img
+      {/* <img
         src={logo}
-        alt="The Tech Dad Media"
+        alt="Tech Dad Media"
         className="w-[80px] cursor-pointer sm:w-[150px]"
-      />
+      /> */}
+      <div className="w-[200px] cursor-pointer sm:w-[250px] text-white text-2xl  sm:text-3xl font-bold main-logo text-gradient">
+        Tech Dad Media
+      </div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
